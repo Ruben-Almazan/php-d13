@@ -12,7 +12,7 @@
 <title>Test PHP</title>
 </head>
 <body>
-	<h1>Hola Mundo :) SOY PHP</h1>
+	<h1>Hola Mundo :) SOY Introducción a PHP</h1>
 	<?php
 		$variable = "Ruben";
 		echo "Hola PHP $variable";
