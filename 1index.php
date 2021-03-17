@@ -2,7 +2,7 @@
 
 <?php
 	
-	include('conexion.php');
+	include('1conexion.php');
 
 ?>
 
@@ -33,7 +33,7 @@
 	?>
 	
 	<br> 
-	<form action="store.php" method = "POST">
+	<form action="1store.php" method = "POST">
 		<label for="tarea">Nombre de Tarea</label>
 		<input type="text" name= "tarea">
 		<br>
