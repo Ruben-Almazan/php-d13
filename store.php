@@ -1,6 +1,6 @@
  <?php
 	
-	include('1conexion.php');
+	include('conexion.php');
 	
 	if(!empty($_POST))
 		{
@@ -14,7 +14,7 @@
 			
 			$sql = "INSERT INTO tareas(tarea, descripcion, urgente, tipo, prioridad) VALUES ('$tarea', '$descripcion', '$urgente', '$tipo', '$prioridad')";
 			$conn->exec($sql);
-			header('Location: 1index.php');
+			header('Location: index.php');
 		}
 
 ?>
