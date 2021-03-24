@@ -5,6 +5,8 @@
 	if(!empty($_POST))
 		{
 			echo var_dump($_POST);
+			
+			
 			//recibir datos
 			$tarea = $_POST['tarea'];
 			$descripcion = $_POST['descripcion'];
